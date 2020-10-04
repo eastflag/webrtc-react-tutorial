@@ -1,6 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-# native webrtc with nodejd and react
+# native webrtc with nodejs and react
 
 ## server
 server is nodejs.
@@ -10,9 +8,6 @@ yarn start server.js
 ## client
 client folder is create-react-app.
 yarn run start
-
-### reference
-https://www.youtube.com/watch?v=JhyY8LdAQHU
 
 ### process flow
 - client A => server, join room
@@ -36,3 +31,7 @@ https://www.youtube.com/watch?v=JhyY8LdAQHU
   handleAnswer
   creating new RTCSessionDescription(received sdp) makes desc
   peer.setRemoteDescription(desc)
+
+### reference
+https://www.youtube.com/watch?v=JhyY8LdAQHU
+https://codelabs.developers.google.com/codelabs/webrtc-web/#0
